@@ -1,0 +1,69 @@
+body {
+    background-image: url('https://img.freepik.com/foto-gratis/fondo-colorido-borroso-vivo_58702-2655.jpg?w=1060&t=st=1686731328~exp=1686731928~hmac=32613c9197f74513a36c650988d145005ed3852f08ae4be08b8f78cb0e791715');
+    background-size: cover;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .button-container button {
+    background-color: #ffbf0085;
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .button-container button:hover{
+    background-color: #00ff5160;
+  }
+  
+  .button-container button:active {
+    background-color: #fff6ae00;
+  }
+
+  
+  .file-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .file-input-label {
+    display: inline-block;
+    background-color: #ffffff42;
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .file-input-label:hover {
+    background-color: #ffc800;
+  }
+  
+  .file-input-label:active {
+    background-color: #fff6ae01;
+  }
+  
+  #file-input {
+    display: none;
+  }
+  
+  #video {
+    display: block;
+    margin: 0 auto;
+  }
+  
